@@ -38,15 +38,4 @@ It predicts the time needed to cover this distance and updates the order's ETA. 
 Completion:  
 Once an order reaches its destination, its status updates to DELIVERED, and it no longer updates in the simulation.  
 
-How to Run  
-Prerequisites: Ensure you have Python 3 installed on your system.  
 
-Save the Code: Save the provided script as a Python file (e.g., delivery_tracker.py).  
-
-Execute from Terminal: Open your terminal or command prompt, navigate to the directory where you saved the file, and run the following command:  
-
-python delivery_tracker.py  
-
-Observe the Simulation: The simulation will start running in your terminal. Status updates for all orders will print every 5 seconds.  
-
-Stop the Simulation: Press Ctrl+C to stop the simulation at any time. A final status report of all active orders will display.
